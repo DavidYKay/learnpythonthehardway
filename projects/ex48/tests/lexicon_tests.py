@@ -3,10 +3,14 @@ from ex48 import lexicon
 
 def test_directions():
     assert_equal(lexicon.scan("north"), [('direction', 'north')])
-    result = lexicon.scan("north south east")
+    result = lexicon.scan("north south east west up down")
     assert_equal(result, [('direction', 'north'),
                           ('direction', 'south'),
-                          ('direction', 'east')])
+                          ('direction', 'east'),
+                          ('direction', 'west'),
+                          ('direction', 'up'),
+                          ('direction', 'down'),
+                          ])
 
 def test_verbs():
     assert_equal(lexicon.scan("go"), [('verb', 'go')])

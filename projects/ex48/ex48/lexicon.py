@@ -3,8 +3,8 @@ directions = set([
 'south',
 'east',
 'west',
-#'up',
-#'down'
+'up',
+'down',
 ])
 
 def scan(sentence):
