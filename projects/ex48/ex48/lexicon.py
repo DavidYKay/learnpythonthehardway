@@ -28,6 +28,11 @@ categories = {
         'kill',
         'eat',
         ]),
+    'stop': set([
+        'the',
+        'in',
+        'of',
+        ]),
 }
 
 def scan(sentence):
