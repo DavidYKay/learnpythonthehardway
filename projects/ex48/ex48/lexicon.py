@@ -33,6 +33,10 @@ categories = {
         'in',
         'of',
         ]),
+    'noun': set([
+        'bear',
+        'princess',
+        ]),
 }
 
 def scan(sentence):
