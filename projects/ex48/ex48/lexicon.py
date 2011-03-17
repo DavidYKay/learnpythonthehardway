@@ -1,11 +1,12 @@
-directions = set([
-'north',
-'south',
-'east',
-'west',
-'up',
-'down',
-])
+#directions = 
+#set([
+#'north',
+#'south',
+#'east',
+#'west',
+#'up',
+#'down',
+#])
 
 verbs = set([
 'go',
@@ -14,8 +15,19 @@ verbs = set([
 ])
 
 categories = {
-    'direction': directions,
-    'verb': verbs,
+    'direction': set([
+        'north',
+        'south',
+        'east',
+        'west',
+        'up',
+        'down',
+        ]),
+    'verb': set([
+        'go',
+        'kill',
+        'eat',
+        ]),
 }
 
 def scan(sentence):
