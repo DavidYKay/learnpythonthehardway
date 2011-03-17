@@ -23,9 +23,7 @@ def scan(sentence):
     words = sentence.split()
     for word in words:
         # Check each category
-        #for category_name, category_words in categories:
         for category_name in categories.keys():
-            category_words = categories[category_name]
-            if word in category_words:
+            if word in categories[category_name]:
                 results.append((category_name, word))
     return results
