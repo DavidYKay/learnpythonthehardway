@@ -1,19 +1,3 @@
-#directions = 
-#set([
-#'north',
-#'south',
-#'east',
-#'west',
-#'up',
-#'down',
-#])
-
-verbs = set([
-'go',
-'kill',
-'eat',
-])
-
 categories = {
     'direction': set([
         'north',
